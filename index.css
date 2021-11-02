@@ -2,6 +2,7 @@
     margin:0;
     padding: 0;
 }
+
 header{
     display: flex;
     height: 60px;
@@ -9,20 +10,48 @@ header{
     align-items: center;
     justify-content: center;
 }
+
 header ul {
     display: flex;
     list-style-type: none;
+    height: 60px;
+
+    align-items: center;
+    justify-content: center;
 }
+
+header ul li:hover{
+    background-color:#1757EE;
+    color: white;
+}
+
 header ul li{
-    margin-left: 15px;
-    margin-right: 15px;
-}
-header ul li a{
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 60px;
     font-size: 15px;
     font-family: "Fira Sans Condensed",sans-serif;
     font-weight: bold;
     text-decoration: none;  
     color: black;
-    line-height: 44px;
-    height: 44px;
+    
+    align-items: center;
+    justify-content: center;
+}
+.main-img{
+    height: 380px;
+    width: 760px;
+}
+.containt{
+    width: 760px;
+}
+.main{
+    display: flex;
+    margin-left: 95px;
+    margin-right: 95px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
