@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 60px;
+    border-bottom: black solid 1px;
+    align-items: center;
+    justify-content: center;
+}
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+header ul li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+header ul li a{
+    font-size: 15px;
+    font-family: "Fira Sans Condensed",sans-serif;
+    font-weight: bold;
+    text-decoration: none;  
+    color: black;
+    line-height: 44px;
+    height: 44px;
+}
